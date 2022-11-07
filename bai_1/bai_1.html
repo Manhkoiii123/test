@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .pad{
+            padding: 25px;
+        }
+        .header{
+            background-color: lightblue;
+            color: green;
+            text-align: center;
+            font-size: 36px;
+            height: 100px;
+            line-height: 100px;
+        }
+        .welcome{
+            background-color: plum;
+            color: white;
+            font-size: 16pt;
+            text-align: center;
+            height: 40px;
+            line-height: 40px;
+        }
+        .main-container{
+            display: flex;
+            justify-content: space-between;
+            background-color: beige;
+        }
+
+        .content{
+            width: 60%;
+        }
+        .img-left{
+            margin-top: 20px;
+            width: 200px;
+            height: 200px;
+        }
+        .img-right{
+            width: 200px;
+            height: 200px;
+            margin: 5px;
+        }
+        .divs{
+            border: 4px solid lightblue;
+            margin-bottom: 5px;
+        }
+        .divs p{
+            text-align: center;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header pad">
+        The Monk Diamond Discovery
+    </div>
+    <div class="welcome">
+        Stolen Diamond Discovered in Siberia!
+    </div>
+    <div class="main-container pad">
+        <div class="content">
+            <p>
+                Professor Bairstone and Dr Day have made a sensational discovery.They have discovered the Monk Diamond in a remote cave in Siberia.
+                Professor Bairstone's dog, Ernest, sniffed out the diamond.
+            </p>
+            <p>
+                The jewel was stolen three years ago from the House of Volkov.
+                The prime suspects in the theft were the Bond Brothers.
+                The team thinks the diamond had been hidden by the thieves.
+                They sent this photo from their camp:
+            </p>
+            <img src="./img/291571673_1279603175907409_2436057330050412751_n.jpg" class="img-left">
+        </div>
+        <div class="right-container">
+            <div class="divs">
+                <img src="./img/291571673_1279603175907409_2436057330050412751_n.jpg" class="img-right">
+                <p>The Monk Diamond</p>
+            </div>
+            <div class="divs">
+                <p>Fact File</p>
+                <p>Carats: 300</p>
+                <p>Colour: Green</p>
+                <p>Value: Over £10 million</p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
